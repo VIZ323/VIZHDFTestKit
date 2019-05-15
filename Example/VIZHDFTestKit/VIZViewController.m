@@ -7,6 +7,7 @@
 //
 
 #import "VIZViewController.h"
+#import "HDFVIZTest.h"
 
 @interface VIZViewController ()
 
@@ -17,7 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    [HDFVIZTest logOut];
+    
 }
 
 - (void)didReceiveMemoryWarning

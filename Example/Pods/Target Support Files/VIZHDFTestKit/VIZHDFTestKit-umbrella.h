@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HDFVIZTest.h"
 
 FOUNDATION_EXPORT double VIZHDFTestKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char VIZHDFTestKitVersionString[];

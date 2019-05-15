@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09003E263F5681D991DB4F584F5E5F93 /* VIZHDFTestKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ACD913AAFE3BFB96CE067BC9B4A37B7 /* VIZHDFTestKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		047C9D1070BAF6D21D61F096DDFF1386 /* HDFVIZTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 578C0B9435323531F4FE73FB500CC0F3 /* HDFVIZTest.m */; };
 		14B530E4CAFD95D868B88CC48B6F07EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		2E3D6128228BE738007DFA67 /* HDFVIZTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3D6126228BE738007DFA67 /* HDFVIZTest.h */; };
-		2E3D6129228BE738007DFA67 /* HDFVIZTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3D6127228BE738007DFA67 /* HDFVIZTest.m */; };
+		2E3D6132228C08E7007DFA67 /* VIZHDFTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3D6130228C08E7007DFA67 /* VIZHDFTool.h */; };
+		2E3D6133228C08E7007DFA67 /* VIZHDFTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3D6131228C08E7007DFA67 /* VIZHDFTool.m */; };
+		45E0D46823301FD6277123265697AED5 /* VIZHDFTestKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 895EC10538AFD407916801C0A2DDB11E /* VIZHDFTestKit-dummy.m */; };
 		6CC64CD012C1C127766B025D0AE00911 /* Pods-VIZHDFTestKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ED92B499F4B83281E24E29D6A29C1AB /* Pods-VIZHDFTestKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96EB33B8669756E7D289BB6CFDB6381E /* Pods-VIZHDFTestKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D39D6D4DE5A1AE399CDFBEDDEB859D8F /* Pods-VIZHDFTestKit_Tests-dummy.m */; };
 		993358882C901FB83E5BB50DE48EF13E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		BCA8FE86EB047EC10C8240DE540C6AC0 /* VIZHDFTestKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 009256D1D0B093FF905C75A8899E1206 /* VIZHDFTestKit-dummy.m */; };
+		99E2D1EB7AD9C1198A496516CC09C1B5 /* HDFVIZTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5746550D4A81E6A0E05ADEA5AA51DE45 /* HDFVIZTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7391DC2ED97B0F7A5F5BEFD70EC1988 /* VIZHDFTestKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 147108725BD900332A0ACB5E163BACF2 /* VIZHDFTestKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFB743B084804B613CFE389CAF42DAC0 /* Pods-VIZHDFTestKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5521EA1420F4E2456AA77B6555633E7 /* Pods-VIZHDFTestKit_Example-dummy.m */; };
 		C6CF3E62BB73EED0B7CD2C556B702985 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		F7A2178DB40BB3732ABBEAD40F179146 /* Pods-VIZHDFTestKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCCBB88034ECF581050AE69B1C8FB662 /* Pods-VIZHDFTestKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,40 +40,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		009256D1D0B093FF905C75A8899E1206 /* VIZHDFTestKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VIZHDFTestKit-dummy.m"; sourceTree = "<group>"; };
 		021EF2A126F3B4F517F03EB99EFB3A66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02632B6424FE9E2A5AFE3310A9382AC3 /* Pods-VIZHDFTestKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIZHDFTestKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0CD0B73F5AB74257DA2926A4D7B76F2D /* VIZHDFTestKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VIZHDFTestKit-prefix.pch"; sourceTree = "<group>"; };
+		0FABF83203BF6170D693DB8A6EFF4B73 /* VIZHDFTestKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = VIZHDFTestKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		147108725BD900332A0ACB5E163BACF2 /* VIZHDFTestKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VIZHDFTestKit-umbrella.h"; sourceTree = "<group>"; };
 		19C5BF37B44B5E74C72CCD41089DC0AE /* Pods-VIZHDFTestKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VIZHDFTestKit_Tests.modulemap"; sourceTree = "<group>"; };
 		1B50FDB4F13CB3BA67E69EBB201ABD96 /* Pods-VIZHDFTestKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIZHDFTestKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1B91454769ED71C8D08A95829689D844 /* Pods-VIZHDFTestKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIZHDFTestKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		1F4C053978F40E61E3B4585C07DF9E78 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2E3D6126228BE738007DFA67 /* HDFVIZTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HDFVIZTest.h; path = VIZHDFTestKit/Classes/HDFVIZTest.h; sourceTree = "<group>"; };
-		2E3D6127228BE738007DFA67 /* HDFVIZTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HDFVIZTest.m; path = VIZHDFTestKit/Classes/HDFVIZTest.m; sourceTree = "<group>"; };
-		37610983E4E836B467E56B8EB3DA6CF2 /* VIZHDFTestKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VIZHDFTestKit.modulemap; sourceTree = "<group>"; };
+		2E3D6130228C08E7007DFA67 /* VIZHDFTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIZHDFTool.h; sourceTree = "<group>"; };
+		2E3D6131228C08E7007DFA67 /* VIZHDFTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIZHDFTool.m; sourceTree = "<group>"; };
 		3A8EDEEDBE51B8517671950408AE2110 /* Pods_VIZHDFTestKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIZHDFTestKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A927315722BC3F2E6860C61577D9B20 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		3ACD913AAFE3BFB96CE067BC9B4A37B7 /* VIZHDFTestKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VIZHDFTestKit-umbrella.h"; sourceTree = "<group>"; };
 		3F30AFB173DA1FDC737C3176F80BB535 /* Pods-VIZHDFTestKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VIZHDFTestKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3FBB0EE2FE925F650ACAB9F96FC08518 /* Pods_VIZHDFTestKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIZHDFTestKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4004DBF34D52A80DF25E752F67A2DE11 /* VIZHDFTestKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VIZHDFTestKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		560D6E02323417FB77C807C0059C4DF6 /* Pods-VIZHDFTestKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VIZHDFTestKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5746550D4A81E6A0E05ADEA5AA51DE45 /* HDFVIZTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HDFVIZTest.h; path = VIZHDFTestKit/Classes/HDFVIZTest.h; sourceTree = "<group>"; };
+		578C0B9435323531F4FE73FB500CC0F3 /* HDFVIZTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HDFVIZTest.m; path = VIZHDFTestKit/Classes/HDFVIZTest.m; sourceTree = "<group>"; };
 		5BF63FD15F2E9266F0845F3A39AC90B7 /* Pods-VIZHDFTestKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIZHDFTestKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5CB47A9642B15A87A008D146F6E6E753 /* VIZHDFTestKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VIZHDFTestKit-prefix.pch"; sourceTree = "<group>"; };
 		633503352DBB8C52201F62F42487C010 /* Pods-VIZHDFTestKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIZHDFTestKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F18F3FD8B276811CA7F521ACAEBECCA /* VIZHDFTestKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VIZHDFTestKit.modulemap; sourceTree = "<group>"; };
+		70A442FDD6E775D99E63396DACA43E3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		895EC10538AFD407916801C0A2DDB11E /* VIZHDFTestKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VIZHDFTestKit-dummy.m"; sourceTree = "<group>"; };
 		9536B6E993177453C7EAF1F986C46BE9 /* Pods-VIZHDFTestKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIZHDFTestKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9DDCBCCD9E79D542D45F334B362FDBFA /* Pods-VIZHDFTestKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIZHDFTestKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		9ED92B499F4B83281E24E29D6A29C1AB /* Pods-VIZHDFTestKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VIZHDFTestKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		9FA5E207711DF2AC29833CB3FC3EF1EF /* Pods-VIZHDFTestKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VIZHDFTestKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B39CA79BA850D9D9A0394911B56D401A /* Pods-VIZHDFTestKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VIZHDFTestKit_Example.modulemap"; sourceTree = "<group>"; };
-		C0D8CA9926AF0A9BA1D32D0594FBD303 /* VIZHDFTestKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VIZHDFTestKit.xcconfig; sourceTree = "<group>"; };
-		C6A164C526FEC09C9446D325451E726A /* VIZHDFTestKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = VIZHDFTestKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BFBA62A9DE48EE8A077D1D19C2952D4C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0BF21C4FACF96D96554ADF73D2663EE /* VIZHDFTestKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VIZHDFTestKit.xcconfig; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D39D6D4DE5A1AE399CDFBEDDEB859D8F /* Pods-VIZHDFTestKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VIZHDFTestKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		DC48CA7EB1D2E3B1538FF9D603883412 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DCCBB88034ECF581050AE69B1C8FB662 /* Pods-VIZHDFTestKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VIZHDFTestKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DE5351C1930E714F3094171FB601F9EE /* Pods-VIZHDFTestKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIZHDFTestKit_Example-resources.sh"; sourceTree = "<group>"; };
 		E5521EA1420F4E2456AA77B6555633E7 /* Pods-VIZHDFTestKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VIZHDFTestKit_Example-dummy.m"; sourceTree = "<group>"; };
-		F9A461735F70503B38FF9BCB2CE9D941 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FB862B587C012BE40AEB704F4C5B08B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE5898642C39F0810C61C33AE4577083 /* Pods-VIZHDFTestKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VIZHDFTestKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,28 +127,28 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		33E2B2FD911D1FB8A30D7E592D47DA5B /* Support Files */ = {
+		2E3D612F228C08E7007DFA67 /* VIZHDFTool */ = {
 			isa = PBXGroup;
 			children = (
-				1F4C053978F40E61E3B4585C07DF9E78 /* Info.plist */,
-				37610983E4E836B467E56B8EB3DA6CF2 /* VIZHDFTestKit.modulemap */,
-				C0D8CA9926AF0A9BA1D32D0594FBD303 /* VIZHDFTestKit.xcconfig */,
-				009256D1D0B093FF905C75A8899E1206 /* VIZHDFTestKit-dummy.m */,
-				5CB47A9642B15A87A008D146F6E6E753 /* VIZHDFTestKit-prefix.pch */,
-				3ACD913AAFE3BFB96CE067BC9B4A37B7 /* VIZHDFTestKit-umbrella.h */,
+				2E3D6130228C08E7007DFA67 /* VIZHDFTool.h */,
+				2E3D6131228C08E7007DFA67 /* VIZHDFTool.m */,
+			);
+			name = VIZHDFTool;
+			path = VIZHDFTestKit/Classes/VIZHDFTool;
+			sourceTree = "<group>";
+		};
+		3CBC74579ADD64B6E7FCA6963928DB16 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFBA62A9DE48EE8A077D1D19C2952D4C /* Info.plist */,
+				6F18F3FD8B276811CA7F521ACAEBECCA /* VIZHDFTestKit.modulemap */,
+				C0BF21C4FACF96D96554ADF73D2663EE /* VIZHDFTestKit.xcconfig */,
+				895EC10538AFD407916801C0A2DDB11E /* VIZHDFTestKit-dummy.m */,
+				0CD0B73F5AB74257DA2926A4D7B76F2D /* VIZHDFTestKit-prefix.pch */,
+				147108725BD900332A0ACB5E163BACF2 /* VIZHDFTestKit-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/VIZHDFTestKit";
-			sourceTree = "<group>";
-		};
-		340E7C369E714DEFC01E4D53F7FE983F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3A927315722BC3F2E6860C61577D9B20 /* LICENSE */,
-				F9A461735F70503B38FF9BCB2CE9D941 /* README.md */,
-				C6A164C526FEC09C9446D325451E726A /* VIZHDFTestKit.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		5ADBEE20706416F2AD73592B3B0D32C2 /* Pods-VIZHDFTestKit_Tests */ = {
@@ -163,6 +167,19 @@
 			);
 			name = "Pods-VIZHDFTestKit_Tests";
 			path = "Target Support Files/Pods-VIZHDFTestKit_Tests";
+			sourceTree = "<group>";
+		};
+		93009C0EF4DC9F206DCCCC2AA94F1DF6 /* VIZHDFTestKit */ = {
+			isa = PBXGroup;
+			children = (
+				2E3D612F228C08E7007DFA67 /* VIZHDFTool */,
+				5746550D4A81E6A0E05ADEA5AA51DE45 /* HDFVIZTest.h */,
+				578C0B9435323531F4FE73FB500CC0F3 /* HDFVIZTest.m */,
+				E1F9DD0EC346E76A79160C6EB82530A5 /* Pod */,
+				3CBC74579ADD64B6E7FCA6963928DB16 /* Support Files */,
+			);
+			name = VIZHDFTestKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		9370B286B9EA14DFF1D16290D9A25E68 /* Pods-VIZHDFTestKit_Example */ = {
@@ -191,10 +208,10 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CE82D9381785CA63FB6561DCD00A469A /* Development Pods */ = {
+		C8BABEB2CC86F605C1A63E0BEE74C26F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EBDA7460CB3C2346BE129C04CF45040E /* VIZHDFTestKit */,
+				93009C0EF4DC9F206DCCCC2AA94F1DF6 /* VIZHDFTestKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -203,7 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				24390EFD555DD124430DFF9724065945 /* Podfile */,
-				CE82D9381785CA63FB6561DCD00A469A /* Development Pods */,
+				C8BABEB2CC86F605C1A63E0BEE74C26F /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				0945526F0926C787FDC64174014EDD5C /* Products */,
 				1BB25EF85C00D29BB13D87FD752AEEDB /* Targets Support Files */,
@@ -218,16 +235,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EBDA7460CB3C2346BE129C04CF45040E /* VIZHDFTestKit */ = {
+		E1F9DD0EC346E76A79160C6EB82530A5 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2E3D6126228BE738007DFA67 /* HDFVIZTest.h */,
-				2E3D6127228BE738007DFA67 /* HDFVIZTest.m */,
-				340E7C369E714DEFC01E4D53F7FE983F /* Pod */,
-				33E2B2FD911D1FB8A30D7E592D47DA5B /* Support Files */,
+				DC48CA7EB1D2E3B1538FF9D603883412 /* LICENSE */,
+				70A442FDD6E775D99E63396DACA43E3A /* README.md */,
+				0FABF83203BF6170D693DB8A6EFF4B73 /* VIZHDFTestKit.podspec */,
 			);
-			name = VIZHDFTestKit;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,11 +256,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		59D38379938EE1A79522652223415B59 /* Headers */ = {
+		48A4955D31FBD6164885CD794EF01D8D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09003E263F5681D991DB4F584F5E5F93 /* VIZHDFTestKit-umbrella.h in Headers */,
+				99E2D1EB7AD9C1198A496516CC09C1B5 /* HDFVIZTest.h in Headers */,
+				B7391DC2ED97B0F7A5F5BEFD70EC1988 /* VIZHDFTestKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CC64CD012C1C127766B025D0AE00911 /* Pods-VIZHDFTestKit_Example-umbrella.h in Headers */,
-				2E3D6128228BE738007DFA67 /* HDFVIZTest.h in Headers */,
+				2E3D6132228C08E7007DFA67 /* VIZHDFTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +281,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE22C2FCE613B9818F1B65F20A9C1CDE /* Build configuration list for PBXNativeTarget "VIZHDFTestKit" */;
 			buildPhases = (
-				59D38379938EE1A79522652223415B59 /* Headers */,
-				F2AF04A925189CFCB8102ED77D029843 /* Sources */,
+				48A4955D31FBD6164885CD794EF01D8D /* Headers */,
+				E0E24927B5F9FF2F6134D0C144E2CFF3 /* Sources */,
 				18E05310E1506F6D24D24D7DE445BA20 /* Frameworks */,
 				A36427FA69E087E84292F9CFA3DACE5B /* Resources */,
 			);
@@ -374,7 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E3D6129228BE738007DFA67 /* HDFVIZTest.m in Sources */,
+				2E3D6133228C08E7007DFA67 /* VIZHDFTool.m in Sources */,
 				BFB743B084804B613CFE389CAF42DAC0 /* Pods-VIZHDFTestKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,11 +403,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2AF04A925189CFCB8102ED77D029843 /* Sources */ = {
+		E0E24927B5F9FF2F6134D0C144E2CFF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCA8FE86EB047EC10C8240DE540C6AC0 /* VIZHDFTestKit-dummy.m in Sources */,
+				047C9D1070BAF6D21D61F096DDFF1386 /* HDFVIZTest.m in Sources */,
+				45E0D46823301FD6277123265697AED5 /* VIZHDFTestKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,7 +627,7 @@
 		};
 		9A20111855D2C186903866AE7B724C2E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0D8CA9926AF0A9BA1D32D0594FBD303 /* VIZHDFTestKit.xcconfig */;
+			baseConfigurationReference = C0BF21C4FACF96D96554ADF73D2663EE /* VIZHDFTestKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -706,7 +723,7 @@
 		};
 		BF12431735AC307C82982B2C03E55534 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0D8CA9926AF0A9BA1D32D0594FBD303 /* VIZHDFTestKit.xcconfig */;
+			baseConfigurationReference = C0BF21C4FACF96D96554ADF73D2663EE /* VIZHDFTestKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

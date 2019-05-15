@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HDFVIZTest : UIView
 
++ (void)logOut;
+
 @end
 
 NS_ASSUME_NONNULL_END
