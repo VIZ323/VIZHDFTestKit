@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
-
-  s.homepage         = 'https://github.com/VIZ323/VIZHDFTestKit'
+#克隆地址，注意去掉尾部
+  s.homepage         = 'https://github.com/VIZ323'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'VIZ323' => 'weilizhi@haodf.com' }

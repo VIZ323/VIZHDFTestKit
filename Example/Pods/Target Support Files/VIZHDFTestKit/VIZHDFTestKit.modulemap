@@ -1,0 +1,6 @@
+framework module VIZHDFTestKit {
+  umbrella header "VIZHDFTestKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

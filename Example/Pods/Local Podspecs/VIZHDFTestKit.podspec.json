@@ -1,0 +1,22 @@
+{
+  "name": "VIZHDFTestKit",
+  "version": "0.1.0",
+  "summary": "A short description of VIZHDFTestKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/VIZ323/VIZHDFTestKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "VIZ323": "weilizhi@haodf.com"
+  },
+  "source": {
+    "git": "https://github.com/VIZ323/VIZHDFTestKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "VIZHDFTestKit/Classes/**/*"
+}
